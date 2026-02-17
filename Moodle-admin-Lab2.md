@@ -129,11 +129,12 @@ Password: [รหัสที่ตั้งไว้]
 - Force password change on first login: Yes
 
 **3) ตั้งค่าการลงทะเบียน:**
-- ปิด Email-based self-registration
-- เปิด Manual accounts only
+- Site administration > Plugins > Authentication > Manage authentication
+- ปิด Email-based self-registration (เลือกเป็น Disable)
 
 **4)ตั้งค่่า Automated Backup:**
 - Site administration > Courses > Backups > Automated backup setup
+- Active: Enabled
 - Schedule: 02:00 AM
 - Keep: 7 days
 - Include user data: Yes
@@ -350,23 +351,17 @@ CSV settings:
 ### ตัวเลือกอื่นในหน้า Upload Users
 
 ```
-Password settings:
+Settings:
 ├── New user password
 │     ├── "Field required in file"   ← รหัสผ่านต้องอยู่ในไฟล์ CSV
 │     └── "Create password if needed" ← Moodle สร้างรหัสผ่านให้อัตโนมัติ
 └── Force password change
-      ├── Yes  ← แนะนำ (ให้ผู้ใช้เปลี่ยนรหัสผ่านในการ login ครั้งแรก)
-      └── No
+      ├── All  ← แนะนำ (ให้ผู้ใช้เปลี่ยนรหัสผ่านในการ login ครั้งแรก)
 
-Email settings:
-└── Email new password to user: Yes / No
+Default values
+└── Choose and authentication method: Manual accounts
+└── Disable notifications: This email address is enable
 
-Username settings:
-├── Allow renames: Yes / No
-└── Standardise usernames: Yes / No (แปลงเป็น lowercase ทั้งหมด)
-
-Data settings:
-└── Prevent email duplicates: Yes / No (แนะนำเลือก Yes)
 ```
 
 
