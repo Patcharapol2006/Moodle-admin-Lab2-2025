@@ -429,11 +429,11 @@ Reset รหัสผ่านทั้งหมด (ไม่ต้องสร
 #### 5. ตรวจสอบผลลัพธ์
 
 **ตรวจสอบ Users:**
-- Browse list of users
+- Site administration > Users > (Accounts) Browse list of users
 - Filter ด้วย username
 
 **ตรวจสอบ Cohort members:**
-- Cohorts > เลือก cohort > Assign
+- Site administration > Users > Cohorts > เลือก จุดสามจุด ของ cohort ที่ต้องการ > Assign
 
 ### 6: สร้างรายวิชาตัวอย่าง
 
@@ -455,7 +455,7 @@ Category: ชั้นมัธยมศึกษาปีที่ 1
 **1) เลือกครูที่รับผิดชอบรายวิชา โดยเลือก Site administration > Courses > Manage Courses an categories
 **2) เลือก Category ที่ต้องการ ด้านขวาจะแสดงรายวิชาที่อยู่ใน Category ดังกล่าว
 **3) เลือกแก้ไขรายวิชาด้านขวามือ
-**4) กดเลือกที่ปุ่ม Enroll User
+**4) เลือก Participants กดเลือกที่ปุ่ม Enrol Users
 **5) หน้า Enrol Users เลือก users, cohorts และ Assign role ที่ต้องการ
 
 **บันทึกรูปหน้า Enroll ครู:** 
