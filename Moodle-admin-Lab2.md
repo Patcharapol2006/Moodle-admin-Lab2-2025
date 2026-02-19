@@ -167,7 +167,7 @@ Site administration > Courses > Manage courses and categories
 
 **บันทึกรูปหน้า Category:** 
 <img width="939" height="817" alt="image" src="https://github.com/user-attachments/assets/74bca3d5-42b3-4afb-adb6-bc0378bed373" />
-<img width="1531" height="840" alt="image" src="https://github.com/user-attachments/assets/1afc15b6-909d-4ae6-be73-922141ce226a" />
+
 ```
 
 
